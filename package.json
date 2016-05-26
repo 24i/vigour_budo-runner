@@ -4,7 +4,11 @@
   "description": "running budo examples",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && node index.js example"
+    "start": "npm install && node index.js example",
+    "test": "standard"
+  },
+  "bin": {
+    "budo-runner": "./cmd/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +26,8 @@
   "homepage": "https://github.com/vigour-io/budo-runner#readme",
   "dependencies": {
     "budo": "^8.2.2"
+  },
+  "devDependencies": {
+    "standard": "^7.1.1"
   }
 }
