@@ -37,4 +37,6 @@ function initBudo () {
   budo.stderr.pipe(process.stderr)
 }
 
+module.exports = initBudo
+
 initBudo()
