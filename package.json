@@ -1,0 +1,26 @@
+{
+  "name": "budo-runner",
+  "version": "1.0.0",
+  "description": "running budo examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node index.js example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigour-io/budo-runner.git"
+  },
+  "author": "vigour.io <dev@vigour.io>",
+  "contributors": [
+    "Jim de Beer",
+    "Nika Tomadze"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigour-io/budo-runner/issues"
+  },
+  "homepage": "https://github.com/vigour-io/budo-runner#readme",
+  "dependencies": {
+    "budo": "^8.2.2"
+  }
+}
