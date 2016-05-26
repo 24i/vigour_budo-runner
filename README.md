@@ -1,6 +1,10 @@
 # budo-runner
 
-<!-- VDOC.badges travis; standard; npm; coveralls -->
+<!-- VDOC.badges standard; npm; coveralls -->
+<!-- DON'T EDIT THIS SECTION (including comments), INSTEAD RE-RUN `vdoc` TO UPDATE -->
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![npm version](https://badge.fury.io/js/budo-runner.svg)](https://badge.fury.io/js/budo-runner)
+<!-- VDOC END -->
 
 ## Getting started
 To get started install `budo-runner` from npm:
@@ -9,8 +13,22 @@ To get started install `budo-runner` from npm:
 npm i budo-runner --save-dev
 ```
 
+or globally
+
+```shell
+npm i budo-runner -g
+```
+
 #### Usage
-You can put it to your scripts in `package.json`.
+You can run it by following
+
+```shell
+budo-runner example/something(.js)
+```
+
+-
+
+Also, you can put it to your scripts in `package.json`.
 
 So it can look like this:
 

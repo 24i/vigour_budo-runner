@@ -8,7 +8,7 @@
     "test": "standard"
   },
   "bin": {
-    "budo-runner": "./cmd/index.js"
+    "budo-runner": "./index.js"
   },
   "repository": {
     "type": "git",
