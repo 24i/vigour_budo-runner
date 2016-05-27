@@ -28,13 +28,13 @@ budo-runner example/something(.js)
 
 -
 
-Also, you can put it to your scripts in `package.json`.
+Also, you can put it to your scripts in `package.json` and install and run it locally.
 
 So it can look like this:
 
 ```json
 "scripts": {
-  "dev": "budo-runner"
+  "dev": "budo-runner example"
 }
 ```
 
